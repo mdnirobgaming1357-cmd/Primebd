@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+  --bg: #0e1030;
+  --bg2: #171a4d;
+  --surface: rgba(255,255,255,0.055);
+  --surface2: rgba(255,255,255,0.09);
+  --surface3: rgba(255,255,255,0.14);
+  --text: #f3f4ff;
+  --text-dim: #9aa0d4;
+  --text-mid: #c7cbf2;
+  --border: rgba(255,255,255,0.10);
+  --border2: rgba(255,255,255,0.20);
+  --primary: #7c6cff;
+  --primary2: #a78bfa;
+  --primary3: #c4b5fd;
+  --gold: #ec4899;
+  --gold2: #db2777;
+  --green: #34d399;
+  --warning: #fbbf24;
+  --danger: #fb7185;
+  --grad-a: #5b5bff;
+  --grad-b: #8b5cf6;
+  --grad-c: #ec4899;
+  --radius-lg: 24px;
+  --radius-md: 16px;
+  --radius-sm: 12px;
+  --glow-violet: 0 10px 40px rgba(124,108,255,0.30);
+  --glow-violet-strong: 0 16px 56px rgba(124,108,255,0.40);
+  --shadow-card: 0 8px 28px rgba(3,4,20,0.35);
+}
+
+* { margin:0; padding:0; box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+html { background: var(--bg); }
+body {
+  background:
+    radial-gradient(900px 500px at 12% -8%, rgba(124,108,255,0.35) 0%, transparent 60%),
+    radial-gradient(800px 600px at 100% 15%, rgba(236,72,153,0.22) 0%, transparent 55%),
+    radial-gradient(1000px 700px at 50% 120%, rgba(56,189,248,0.18) 0%, transparent 55%),
+    linear-gradient(180deg, var(--bg) 0%, var(--bg2) 100%);
+  background-attachment: fixed;
+  color:var(--text); font-family:'Inter',sans-serif; overflow-x:hidden;
+}
+#root { max-width:480px; margin:0 auto; min-height:100vh; padding-bottom:100px; position:relative; }
+
+/* আপনার দেওয়া বাকি সমস্ত CSS (loader, modal, page, ads ইত্যাদি) এখানে পেস্ট করবেন, যা const css = ` ` এর ভেতর ছিল */
