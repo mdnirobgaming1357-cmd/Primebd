@@ -5,7 +5,7 @@
  *  API: https://www.gajarbotol.site/nirob/api.php
  * ============================================================
  */
-
+import './index.css';
 import { useState, useEffect, useRef, useCallback } from "react";
 
 // ============================================================
